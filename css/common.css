@@ -13,6 +13,10 @@ body {
   line-height: 1.5;
 }
 
+button {
+  border: none;
+}
+
 ul {
   list-style-type: none;
 }
@@ -85,4 +89,173 @@ flex-direction: column;
     width: 100%;
     height: auto;
     border-radius: 8px;
+}
+
+/* Task-3 */
+
+#name-input {
+  border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+}
+
+#name-input:hover {
+  border: 1px solid #000;
+}
+
+#name-input {
+font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding-left: 16px;
+}
+
+h1 {
+  font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 133%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+/* Task-4 */
+
+.button-log {
+  background-color: #4e75ff;
+  border-radius: 8px;
+    padding: 8px 16px;
+    margin-top: 16px;
+    width: 86px;
+    height: 40px;
+    font-family: var(--font-family);
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 0.04em;
+      color: #fff;
+}
+
+label {
+  font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.login-input {
+  border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+}
+
+.login-form {
+  display: flex;
+flex-direction: column;
+gap: 8px;
+padding-left: 24px;
+}
+
+.login-label {
+display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Task-5 */
+
+.widget {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 0.04em;
+      color: #2e2f42;
+}
+
+.change-color {
+  background-color: #4e75ff;
+  border-radius: 8px;
+    padding: 8px 16px;
+    width: 148px;
+    height: 40px;
+    font-family: var(--font-family);
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 0.04em;
+      color: #fff;
+      border: none;
+}
+
+/* Task-6 */
+
+#controls {
+  border-radius: 8px;
+    padding: 32px;
+    width: 486px;
+    height: 104px;
+    background-color: #f6f6fe;
+    display: flex;
+    gap: 16px;
+}
+
+.controls-input {
+  border: 1px solid #808080;
+    border-radius: 8px;
+    padding-left:72px;
+    width: 150px;
+    height: 40px;
+    font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 0.04em;
+      color: #2e2f42;
+      flex: 1;
+      
+}
+
+.button-controls {
+  border-radius: 8px;
+    padding: 8px 16px;
+    width: 120px;
+    height: 40px;
+    flex: 1;
+    font-family: var(--font-family);
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 0.04em;
+      color: #fff;
+}
+
+.button-create {
+  background-color: #4e75ff;
+}
+
+.button-destroy {
+  background-color: #ff4e4e;
+}
+
+#boxes {
+  background-color: #f6f6fe;
+  border-radius: 8px;
+    padding: 32px;
+    width: 100vh;
+    height: 100%;
+    display: flex;
+    gap: 44px;
 }
