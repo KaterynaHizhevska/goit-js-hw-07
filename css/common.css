@@ -210,7 +210,6 @@ display: flex;
     background-color: #f6f6fe;
     display: flex;
     gap: 16px;
-  margin-bottom: 16px;
 }
 
 .controls-input {
